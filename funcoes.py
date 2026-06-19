@@ -21,7 +21,7 @@ def fazer_pergunta(pergunta):
         print(alternativa)
     
     while True:
-        resposta = input("Sua resposta (A,B,C ou D): ").upper()
+        resposta = input("Sua resposta (A, B, C ou D): ").upper()
         if resposta in ["A", "B", "C", "D"]:
             break
         print("Resposta Inválida. Digite A, B, C ou D.") 
