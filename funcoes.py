@@ -9,7 +9,6 @@ def exibir_menu():
     print("2 - Ver ranking")
     print("3 - Sair")
 
-
     opcao = input("Escolha uma opção: ")
     return opcao
 

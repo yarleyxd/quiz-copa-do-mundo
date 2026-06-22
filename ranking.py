@@ -1,3 +1,4 @@
+
 def adicionar_ao_ranking(ranking, nome, pontuacao):
     """Adiciona o jogador e a pontuação ao ranking"""
     jogador = {"nome": nome, "pontuacao": pontuacao}
