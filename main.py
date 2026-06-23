@@ -25,20 +25,21 @@ while True:
                 acertos += 1
 
         print("\n" + "=" * 40)
-        print(f"Jogador: {nome}")
+        print(f"         RESULTADO DE {nome}")
+        print("=" * 40)
         print(f"Acertos: {acertos} de {len(perguntas)}")
         print("=" * 40)
 
         if acertos == 10:
-            print("Perfeito! Voçê é um gênio!")
+            print("Desempenho: Perfeito! Você é um gênio!")
         elif acertos >= 8:
-            print("Excelente desempenho!")
+            print("Desempenho: Excelente desempenho!")
         elif acertos >= 6:
-            print("Bom trabalho!")
+            print("Desempenho: Bom trabalho!")
         elif acertos >= 4:
-            print("Voc6e pode melhorar!")
+            print("Desempenho: Você pode melhorar!")
         else:
-            print("Continue estudando!")
+            print("Desempenho: Continue estudando!")
 
         ranking_geral = adicionar_ao_ranking(ranking_geral, nome, acertos)    
 

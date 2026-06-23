@@ -6,7 +6,7 @@ def adicionar_ao_ranking(ranking, nome, pontuacao):
     return ranking
 
 def exibir_ranking(ranking):
-    """Exibe o rankning ordenado por pontuação do maior para menor."""
+    """Exibe o ranking ordenado por pontuação do maior para menor."""
     print("\n" + "=" * 40)
     print("         RANKING DE JOGADORES")
     print("=" * 40)
