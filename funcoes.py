@@ -5,7 +5,7 @@ def exibir_menu():
     e recebe a opção que ele escolher."""
 
     print("\n" + "=" * 40)
-    print("     BEM VINDO AO QUIZ!")
+    print("         BEM VINDO AO QUIZ!")
     print("=" * 40)
     print("1 - Jogar")
     print("2 - Ver ranking")
